@@ -11,9 +11,9 @@
 	<name>maven-release Maven Webapp</name>
 
 	<scm>
-		<url>https://github.com/addy2908/devops-project.git</url>
-		<connection>scm:git:https://github.com/addy2908/devops-project.git</connection>
-		<developerConnection>scm:git:https://github.com/addy2908/devops-project.git</developerConnection>
+		<url>git@github.com:alangati/Mini-project.git</url>
+		<connection>scm:git:git@github.com:alangati/Mini-project.git</connection>
+		<developerConnection>scm:git:git@github.com:alangati/Mini-project.git</developerConnection>
 		
 	  <tag>HEAD</tag>
   </scm>
@@ -23,14 +23,14 @@
 		<repository>
 			<id>nexusreleases</id>
 			<name>new-maven-release</name>
-			<url>http://ec2-54-67-10-18.us-west-1.compute.amazonaws.com:8081/repository/devops-project-release/</url>
+			<url>172.17.0.1:8081/repository/new-maven-release/</url>
 		</repository>
 
 		<!-- Publish snapshots here -->
 		<snapshotRepository>
 			<id>nexussnapshots</id>
 			<name>new-maven-snapshot</name>
-			<url>http://ec2-54-67-10-18.us-west-1.compute.amazonaws.com:8081/repository/devops-project-snapshot/</url>
+			<url>172.17.0.1:8081/repository/new-maven-snapshot/</url>
 		</snapshotRepository>
 	</distributionManagement>
 
